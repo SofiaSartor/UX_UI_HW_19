@@ -1,0 +1,73 @@
+body {
+    background-color: white;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    text-align: right;
+    }
+
+nav.inline-block {
+    width: 50%;
+    margin-right: auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.HeroImg. {
+    height: 600px;
+    padding: 25px;
+}
+   
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #373738;
+    padding: 5px 0;
+
+}
+
+.ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.workGrid {
+    display: grid;
+    column-gap: 75px;
+    grid-template-columns: auto auto auto auto;
+
+
+}
+
+.MyWork {
+    background-color: #FDFBD6;
+
+
+}
+
+.viewall {
+    background-color: #C1B9D6;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px)
